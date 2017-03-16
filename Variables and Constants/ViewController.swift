@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     //MARK: - Actions
     @IBAction func changingButton(_ sender: UIButton) {
         changingLabel.text = "You did it!"
-        currentView.backgroundColor = .blue
+        currentView.backgroundColor = .white
     }
 
 
