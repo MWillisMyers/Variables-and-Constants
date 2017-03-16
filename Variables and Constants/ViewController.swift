@@ -9,15 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK: - Outlets
+    @IBOutlet weak var changingLabel: UILabel!
+    @IBOutlet var currentView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    //MARK: - Actions
+    @IBAction func changingButton(_ sender: UIButton) {
+        changingLabel.text = "You did it!"
+        currentView.backgroundColor = .blue
     }
 
 
