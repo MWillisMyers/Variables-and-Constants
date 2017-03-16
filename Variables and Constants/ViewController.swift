@@ -24,7 +24,6 @@ class ViewController: UIViewController {
         changingLabel.text = "You did it!"
         currentView.backgroundColor = .white
     }
-    // this is a test of the local broadcast github
-
+    
 }
 
